@@ -6,6 +6,9 @@ function nextGen() {
   generation++;
   calculateFitness();
   TOTAL = document.getElementById("total").value;
+  if (!TOTAL) {
+    TOTAL = 25;
+  }
   for (let i = 0; i < TOTAL; i++) {
     birds[i] = pickOne();
   }
