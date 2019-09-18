@@ -5,6 +5,7 @@ function nextGen() {
   console.log("next generation");
   generation++;
   calculateFitness();
+  TOTAL = document.getElementById("total").value;
   for (let i = 0; i < TOTAL; i++) {
     birds[i] = pickOne();
   }

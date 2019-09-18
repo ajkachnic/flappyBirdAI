@@ -1,4 +1,4 @@
-const TOTAL = 100;
+var TOTAL = 50;
 var birds = [];
 let savedBirds = [];
 var pipes = [];
